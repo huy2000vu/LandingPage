@@ -1,34 +1,38 @@
-.mid-info{
-    background-color: white;
-    margin:50px 100px 100px 200px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.mid-info {
+  background-color: white;
+  margin: 50px 100px 100px 200px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.mid-info h1{
-    /* 36px extra-bold #1F2937 */
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.mid-info h1 {
+  /* 36px extra-bold #1F2937 */
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.mid-info img{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    border: solid #3882F6 4px;
+.mid-info img {
+  min-width: 150px;
+  width: auto;
+  height: 150px;
+  border-radius: 10px;
+  border: solid #3882f6 4px;
 }
-.photocards{
-    display: flex;
-    gap: 10px;
-    /* justify-content: space-around; */
+.photocards {
+  display: flex;
+  gap: 10px;
+  max-width: fit-content;
+  width: auto;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
 }
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    /* border: dotted red; */
-    color: grey;    
+.card {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* border: dotted red; */
+  color: grey;
 }
-    
