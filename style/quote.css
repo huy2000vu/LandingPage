@@ -1,32 +1,31 @@
-.quote{
-    padding: 50px 100px 50px 300px;
-    background-color:lightgrey;
-    display: flex;
-    flex-direction: column;
-    /* border: red dotted; */
+.quote {
+  padding: 50px 100px 50px 300px;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  /* border: red dotted; */
 }
-.quotebox{
-    display: flex;
-    flex-direction: column;
-    margin:0;
-    width: max-content; 
+.quotebox {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  max-width: max-content;
+  width: auto;
 }
-.thequote{
-    /* 36px light italic #1F2937 */
-    flex-wrap: wrap;
-    font-size: 26px;
-    font-style:italic;
-    font-weight: lighter;
-    color:#1F2937;
-    margin-bottom: 0;
-
+.thequote {
+  /* 36px light italic #1F2937 */
+  flex-wrap: wrap;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  margin-bottom: 0;
 }
-.by{
-    align-self: flex-end;
-    text-decoration: none;
-   
+.by {
+  align-self: flex-end;
+  text-decoration: none;
 }
-.by a{
-    text-decoration: none;
-    color: black;
+.by a {
+  text-decoration: none;
+  color: black;
 }
